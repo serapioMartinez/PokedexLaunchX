@@ -1,0 +1,9 @@
+@media screen and (max-width: 700px) {
+    *{
+        font-size: 1rem;
+        margin: 0.5rem;
+    }
+    .logo-pokemon{
+        width: 90%;
+    }
+ }

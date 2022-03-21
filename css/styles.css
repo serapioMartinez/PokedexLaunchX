@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Pokemon';
+    src: url("../fonts/PokemonGb-RAeo.ttf") format('truetype');
+}
+*{
+    font-family: Pokemon;
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+body{
+    background-color: rgb(247, 247, 141);
+}
+.main{
+    width: 90%;
+    height: 90%;
+    border: 1rem solid rgba(77, 72, 71, 0.726) ;
+    margin: 1rem auto;
+    background-image: url("../img/Pikachu-Wallpaper.jpg");
+    background-size: cover;
+    background-position: bottom 0% right 0%;
+    background-repeat: no-repeat;
+}
+.logo-pokemon{
+    background-image: url("../img/pokeballGrande.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto 100% ;
+
+}
+.parrafo{
+    background-color: rgba(255, 247, 240, 0.918);
+    padding: 1rem;
+    text-align: left;
+}
+button{
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 10px;
+    color: rgb(247, 247, 64);
+    background-color: rgb(52, 104, 201);
+    font-size: 0.8rem;
+}
+.linea-botones{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
