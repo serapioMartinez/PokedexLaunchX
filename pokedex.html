@@ -6,61 +6,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokedex Pokemon</title>
     <link rel="stylesheet" href="./css/styles.css">
-    
+    <link rel="stylesheet" href="./css/pokedex.css">
     <link rel="stylesheet" href="./css/styles_mobile.css">
 </head>
-<body style="background-color: rgb(165, 22, 22);">
+<body>
+    <div class="input-name">
+        <input id="pokeName" type="text" placeholder="Pokemon..." size="12">
+        <button class="boton-buscar" onclick="fetchPokemon()">BUSCAR</button>
+    </div>
     <section class="frame">
         <div class="row header-frame">
             <div class="mazapan"></div>
             <div class="azule"></div>
             <div class="azul"></div>
         </div>
-        <div class="row info">
-            <div class="image-pokemon">
-                <figure>
-                    <figcaption>PIKACHU</figcaption>
-                    <img src="./img/Pikachu.png" alt="Pokemon">
-                </figure>
-            </div>
+        <div class="row principal">
+            <figure class="image-pokemon">
+                <figcaption id="pokeCaption" class="pokemon-nombre">PIKACHU</figcaption>
+                <img class="pokemon" id="pokeImg" src="./img/Pikachu.png" alt="Pokemon">
+            </figure>
+            
             <div class="info">
-                <div class="element">
-                    <span class="element-title">ID</span>
-                    <span class="element-content" id="ID">10</span>
+                <div>
+                    <span class="element-title element">ID</span>
+                    <span class="element-content" id="id">10</span>
                 </div>
-                <div class="element">
-                    <span class="element-title">NOMBRE</span>
-                    <span class="element-content" id="NOMBRE">PIKACHU</span>
+                <div >
+                    <span class="element-title element">PESO</span>
+                    <span class="element-content" id="weight">10</span>
                 </div>
-                <div class="element">
-                    <span class="element-title">PESO</span>
-                    <span class="element-content" id="PESO">10</span>
+                <div>
+                    <span class="element-title element">ALTURA</span>
+                    <span class="element-content" id="height">25</span>
                 </div>
-                <div class="element">
-                    <span class="element-title">ALTURA</span>
-                    <span class="element-content" id="ALTURA">25</span>
+                <div>
+                    <span class="element-title element">XP</span>
+                    <span class="element-content" id="base_experience">267</span>
                 </div>
-                <div class="element">
-                    <span class="element-title">XP</span>
-                    <span class="element-content" id="BASE-EXPERIENCIA">267</span>
-                </div>
-                <div class="element">
-                    <span class="element-title"></span>
-                    <div class="element-content" id="TIPO">
-                        <span class="fire water etc">ELECTRIC</span>
+                <div>
+                    <span class="element-title element">TIPO</span>
+                    <div class="element-content" id="types">
+                        <span class="fire type">FIRE</span>
+                        <span class="water type">WATER</span>
+                        <span class="electric type">ELECTRIC</span>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="stats">
-            <span class="stats-title">Estadisticas</span>
-            <div class="stat" id="HP"></div>
-            <div class="stat" id="ATTACK"></div>
-            <div class="stat" id="DEFENSE"></div>
-            <div class="stat" id="SPECIAL-ATTACK"></div>
-            <div class="stat" id="SPECIAL-DEFENSE"></div>
-            <div class="stat" id="SPEED"></div>
+        
+        <div class="row stats">
+            <span class="element-title element">ESTADISTICAS</span>
+            <div class="stat">
+                <span class="stat-title">HP</span>
+                <span class="stat-content" id="hp">10</span>
+            </div>
+            <div class="stat">
+                <span class="stat-title">ATTACK</span>
+                <span class="stat-content" id="attack">10</span>
+            </div>
+            <div class="stat">
+                <span class="stat-title">DEFENSE</span>
+                <span class="stat-content" id="defense">10</span>
+            </div>
+            <div class="stat">
+                <span class="stat-title">SPEED</span>
+                <span class="stat-content" id="speed">10</span>
+            </div>
+            <div class="stat">
+                <span class="stat-title">SPECIAL-ATTACK</span>
+                <span class="stat-content" id="special-attack">10</span>
+            </div>
+            <div class="stat">
+                <span class="stat-title">SPECIAL-DEFENSE</span>
+                <span class="stat-content"  id="special-defense">10</span>
+            </div>
         </div>
     </section>
+    <script src="./js/funciones.js"></script>
 </body>
 </html>

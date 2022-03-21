@@ -1,0 +1,140 @@
+*{
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(165, 22, 22);
+}
+.input-name{
+    position: absolute;
+    background-color: black;
+    border-radius: 20px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.frame{
+    border: 15px solid #aaaaaa;
+    border-radius: 10px;
+    width: 800px;
+    margin: auto auto;
+}
+.row{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    background-color: #f7d8bb;
+    margin: 0;
+}
+.header-frame{
+    height: 50px;
+    margin: 0;
+    background-color: rgb(51, 101, 192);
+}
+.mazapan{
+    background-color: #f1cd93;
+    width: 40%;
+    margin: 0;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.azule{
+    width: 20%;
+    margin: 0;
+    background-image: radial-gradient(circle at 0 25px ,rgba(204,0,0,0) 25px, rgb(102, 168, 230) 15px);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.principal{
+    height: 500px;
+}
+
+.image-pokemon{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border: 2px solid #575353;
+    margin: 0;
+}
+.pokemon-nombre{
+    text-align: center;
+    background-color: rgb(139, 57, 206);
+    margin: 0;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+.pokemon{
+    min-height: 200px;
+    max-height: 400px;
+    min-width: 200px;
+    max-width: 400px;
+}
+.info{
+    width: 270px;
+    height: 500px; 
+    text-align: center;
+      
+}
+.element{
+    width: 100%;
+    background-color: rgb(115, 43, 148);
+    height: 10px;
+    border-radius: 15px;
+}
+.element-title{
+    display: block;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+    margin: 0.5rem auto;
+    text-shadow: 0 0 3px rgb(115, 43, 148);
+}
+.element-content{
+    background-color: white;
+    display: block;
+    padding: 0.5rem;
+    margin: auto auto;
+}
+.fire{
+    background-color: red;
+    padding: 0.2rem;
+    border-radius: 5px;
+}
+.water{
+    background-color: blue;
+    padding: 0.2rem;
+    border-radius: 5px;
+}
+.electric{
+    background-color: yellow;
+    padding: 0.2rem;
+    border-radius: 5px;
+}
+.stats{
+    padding: 2rem;
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.stat{
+    background-color: #9b4236ec;
+    border-radius: 10px;
+}
+.stat:hover{
+    background-color: #9b423680;
+    border-radius: 10px;
+}
+.stat-title{
+    display: block;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.stat-content{
+    display: block;
+}

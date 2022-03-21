@@ -1,0 +1,174 @@
+*{
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+.input-name{
+    position: absolute;
+    background-color: black;
+    border-radius: 20px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+}
+input{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+}
+.frame{
+    border: 15px solid #aaaaaa;
+    border-radius: 10px;
+    margin: 3rem auto;
+    width: 90%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #f7d8bb;
+    margin: 0;
+}
+.header-frame{
+    height: 50px;
+    margin: 0;
+    background-color: rgb(51, 101, 192);
+}
+.mazapan{
+    background-color: #f1cd93;
+    width: 40%;
+    margin: 0;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.azule{
+    width: 20%;
+    margin: 0;
+    background-image: radial-gradient(circle at 0 25px ,rgba(204,0,0,0) 25px, rgb(102, 168, 230) 15px);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.principal{
+    padding-top: 1rem;
+}
+.image-pokemon{
+    background-color: white;
+    border: 2px solid #575353;
+    margin: 0;
+    width: 50%;
+}
+.pokemon-nombre{
+    text-align: center;
+    background-color: rgb(139, 57, 206);
+    margin: 0;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+.pokemon{
+    width: 90%;
+}
+.info{
+    width: auto; 
+    text-align: center;  
+}
+.element{
+    width: 100%;
+    background-color: rgb(115, 43, 148);
+    height: 10px;
+    border-radius: 15px;
+}
+.element-title{
+    display: block;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+    margin: 0.5rem auto;
+    text-shadow: 0 0 3px rgb(115, 43, 148);
+}
+.element-content{
+    background-color: white;
+    display: block;
+    padding: 0.5rem;
+    margin: auto auto;
+}
+.stats{
+    padding: 2rem;
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.stat{
+    background-color: #9b4236ec;
+    border-radius: 10px;
+}
+.stat:hover{
+    background-color: #9b423680;
+    border-radius: 10px;
+}
+.stat-title{
+    display: block;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.stat-content{
+    display: block;
+}
+
+.fire{
+    background-color: red;
+    padding: 0.2rem;
+    border-radius: 5px;
+}
+.water{
+    background-color: blue;
+    padding: 0.2rem;
+    border-radius: 5px;
+}
+.electric{
+    background-color: yellow;
+    padding: 0.2rem;
+    border-radius: 5px;
+}
+.ground{
+    background-color: brown;
+    padding: 0.2rem;
+    border-radius: 5px;
+}
+.rock{
+    background-color: gray;
+    padding: 0.2rem;
+    border-radius: 5px;
+}
+.grass{
+    background-color: green;
+    padding: 0.2rem;
+    border-radius: 5px;
+}
+.poison{
+    background-color: purple;
+    padding: 0.2rem;
+    border-radius: 5px;
+}
+.ghost{
+    background-color: black;
+    color: white;
+    padding: 0.2rem;
+    border-radius: 5px;
+}
+.psychic{
+    background-color: rgba(228, 220, 228, 0.822);
+    padding: 0.2rem;
+    border-radius: 5px;
+}
+.fairy{
+    background-color: rgb(206, 17, 206);
+    padding: 0.2rem;
+    border-radius: 5px;
+}
